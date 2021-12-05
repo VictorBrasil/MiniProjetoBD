@@ -1,7 +1,7 @@
 # API-SVG
 API com Node e Express que permite consultar o path e o viewbox das geometrias dos municípios do banco do IBGE.
 
-## Inicialização
+## Para a Inicialização
 
 No PostgreSQL é necessário, além da importação dos shapefiles referentes aos municípios, a criação da função que retorna o SVG de uma geometria:
 
