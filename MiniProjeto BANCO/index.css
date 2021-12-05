@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 4, 124);
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    flex-direction: column;
+}
+
+.mapa--name{
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.mapa svg{
+    fill: rgba(151, 141, 1, 0.856);
+    margin-bottom: 10vh;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  5vh;
+}
+
+form input{
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+form button{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 196, 11);
+    border: 2px solid rgb(102, 2, 102);
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: rgb(245, 0, 0);
+    background-color: white;
+    border: 2px solid white;
+}
